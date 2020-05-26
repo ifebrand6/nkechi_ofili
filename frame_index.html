@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Theme Starz">
+
+    <title>LifeCoach - Coach, Speaker & Mentor Template</title>
+    <link rel="stylesheet" href="../iframe-style.css">
+</head>
+
+<body>
+
+<!-- <div id="ts-envato-header">
+    <div class="preview__envato-logo">
+        <a href="https://themeforest.net/item/lifecoach-coach-speaker-mentor-template/22168347?ref=ThemeStarz">Envato Market</a>
+    </div>
+    <div class="preview__actions">
+        <div class="preview__action--buy" style="">
+            <a class="e-btn--3d -color-primary" href="https://themeforest.net/item/lifecoach-coach-speaker-mentor-template/22168347?ref=ThemeStarz">Buy now</a>
+        </div>
+        <div class="preview__action--close">
+            <a href="index.html#" id="remove-frame">
+                <i class="e-icon -icon-cancel"></i>
+                <span>Remove Frame</span>
+            </a>
+        </div>
+    </div>
+</div> -->
+
+<iframe id="iframe" src="index2.html">
+
+</iframe>
+
+<script>
+    this.top.location !== this.location && (this.top.location = this.location);
+
+    (function () {
+
+        document.getElementById("remove-frame").onclick = function() {
+            window.location.href = document.getElementById("iframe").src;
+        };
+
+
+    })();
+
+</script>
+
+</body>
+</html>
